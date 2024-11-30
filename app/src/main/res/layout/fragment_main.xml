@@ -37,7 +37,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginRight="15dp"
             android:autofillHints="password"
-            android:hint="Password"
+            android:hint="@string/passwordLogInET_hint"
             android:inputType="textPassword"
             android:minHeight="48dp"
             android:textColorHighlight="#757575" />
@@ -50,7 +50,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginRight="15dp"
             android:autofillHints="emailAddress"
-            android:hint="Confirm password"
+            android:hint="@string/passwordConfirmSignUpET_hint"
             android:inputType="textPassword"
             android:minHeight="48dp"
             android:textColorHighlight="#757575" />
@@ -60,7 +60,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="15dp"
-            android:text="Зарегистрироваться" />
+            android:text="@string/signInBTN_text" />
 
         <TextView
             android:id="@+id/redirectLogInTV"
@@ -68,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10dp"
-            android:text="Уже есть аккаунт"
+            android:text="@string/redirectLogInTV_text"
             android:textColor="#18206f"
             android:textSize="16sp" />
 

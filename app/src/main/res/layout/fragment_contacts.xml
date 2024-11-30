@@ -9,21 +9,21 @@
         android:id="@+id/etName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Name"
+        android:hint="@string/etName_hint"
         android:inputType="text" />
 
     <EditText
         android:id="@+id/etPhone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Phone"
+        android:hint="@string/etPhone_hint"
         android:inputType="phone" />
 
     <Button
         android:id="@+id/btnSave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Save" />
+        android:text="@string/btnSave_text" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
@@ -36,5 +36,5 @@
         android:id="@+id/btnBack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Back" />
+        android:text="@string/btnBack_text" />
 </LinearLayout>

@@ -3,4 +3,17 @@
     <string name="app_title">Электронная почта</string>
 
     <string name="exit">Выход</string>
+    <string name="etName_hint">Введите имя</string>
+    <string name="etPhone_hint">Введите номер телефона</string>
+    <string name="btnSave_text">Сохранить</string>
+    <string name="btnBack_text">К авторизации</string>
+    <string name="emailLogInET_hint">Email</string>
+    <string name="passwordLogInET_hint">Пароль</string>
+    <string name="logInBTN_text">Войти</string>
+    <string name="redirectSignInTV_text">Необходима регистрация</string>
+    <string name="passwordConfirmSignUpET_hint">Повтор пароля</string>
+    <string name="signInBTN_text">Зарегистрироваться</string>
+    <string name="redirectLogInTV_text">Уже есть аккаунт</string>
+    <string name="tvName_text">Имя</string>
+    <string name="tvPhone_text">Телефон</string>
 </resources>
